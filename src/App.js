@@ -18,7 +18,7 @@ function App() {
   };
 
   const deleteTask = (taskId) => {
-    setTodoList(todoList.filter((task) => task.id !== taskId));
+    setTodoList(todoList?.filter((task) => task.id !== taskId));
   };
 
   const completeTask = (taskId) => {
